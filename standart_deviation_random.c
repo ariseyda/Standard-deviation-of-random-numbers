@@ -38,12 +38,12 @@ int main(){
 	for(k=0;k<100;k++){
 		
 		printf("Difference between %d and average:%.2f\n",array[k],array[k]-(mean*1.0));
-		sum2+=sqrt(array[k]-(mean*1.0));
+		sum2+=pow(array[k]-(mean*1.0),2.0);
 		
 	}
 	
 	
-	float standart_deviation=sum2/99.0;
+	float standart_deviation=sqrt(sum2/99.0);
 	
 	printf("\nStandart deviation:%.2f",standart_deviation);
 	
