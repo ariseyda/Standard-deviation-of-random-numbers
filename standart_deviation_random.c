@@ -9,7 +9,7 @@
 //1-) Firstly, the arithmetic average of the data is calculated.
 //2-) The differences of the terms given in the series with the arithmetic mean are calculated.
 //3-) The squares of the differences are summed.
-//4-) The result obtained is divided by one minus the number of terms.
+//4-) The result obtained is divided by one minus the number of terms.And it is enclosed in square root.
 
 int main(){
 	
